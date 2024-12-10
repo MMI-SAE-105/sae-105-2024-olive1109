@@ -1,0 +1,23 @@
+:root {
+  
+        /* color */
+        --beige-: #fedfc5;
+        --blanc: #ffffff;
+        --noir: #000000;
+        --orange: #f29c62;
+        --orange-35: #f29c6259;
+        --vert: #96bf64;
+
+        /* font */
+        --font-font-xs: 0.75rem;
+        --font-font-s: 1.25rem;
+        --font-font-m: 1.875rem;
+        --font-font-l: 2.8125rem;
+        
+        /* string */
+        --font-familly-body: Roboto;
+        --font-familly-header: Notable;
+        --weigth-bold: Bold;
+        --weigth-extra-ligth: ExtraLigth;
+        --weigth-regular: Regular;
+}
