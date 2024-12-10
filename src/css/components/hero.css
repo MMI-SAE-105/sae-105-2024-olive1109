@@ -1,0 +1,20 @@
+.hero {
+    background: var(--vert, #96BF64);
+    width: 100%;
+    height: 430px;
+}
+
+.hero__title {
+    display: flex;
+    justify-content: center;
+    color: var(--blanc, #FFF);
+    font-family: var(--font-familly-header, Notable);
+    font-size: var(--font-font-l);
+}
+
+.hero__img{
+    width: 130%;
+    height: 82px;
+    margin-left: -15%;
+    flex-shrink: 0;
+}
