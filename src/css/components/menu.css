@@ -1,0 +1,41 @@
+.menu {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: var(--vert);
+    font-size: var(--font-font-M, 30px);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.menu[aria-hidden="false"] {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.menu__list {
+    margin-top: 25vh;
+    margin-left: 15vw;
+    align-items: center;
+}
+
+.menu__item {
+    margin-top: 15%;
+    list-style: none;
+  }
+
+.menu__link {
+   color: var(--blanc);
+}
+
+.language-btn {
+    color: var(--blanc);
+}
+
+.language-btn span {
+    opacity: 0.4;
+}

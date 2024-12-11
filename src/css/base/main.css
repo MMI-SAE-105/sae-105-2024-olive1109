@@ -4,7 +4,7 @@ a {
 }
 
 a:hover {
-    color: var(--vert); /* Change la couleur au survol */
+    color: var(--orange); /* Change la couleur au survol */
 }
 
 .container {

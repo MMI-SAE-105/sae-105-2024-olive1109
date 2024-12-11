@@ -19,8 +19,6 @@
     align-items: center;
 }
 
-
-
 .card-acc__item {
     display: flex;
     align-items: center;
@@ -41,7 +39,6 @@
 
 .films__title, .card-acc__nom{
     align-self: stretch;
-    color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-S, 20px);
     display: flex;
