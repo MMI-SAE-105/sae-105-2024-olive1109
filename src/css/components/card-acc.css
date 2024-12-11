@@ -1,11 +1,4 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    height: 30vh; /* Assure que le conteneur prend toute la hauteur de la page */
-}
+
 
 
 .card-acc__icon {
@@ -13,6 +6,7 @@
     height: 80px;
     display: flex;
     align-items: center;
+    margin-top: 100px;
 }
 
 .card-acc__title {
@@ -57,9 +51,36 @@
 
 .film__description, .card-acc__text {
     max-width: 200px;
-    height: 103px;
     flex-shrink: 0;
     color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-XS, 12px);
+}
+
+.boutton{
+    gap: 40px;
+}
+
+.int{
+
+    border: 1px solid var(--orange, #F29C62);
+    background-color: var(--blanc, #FFF);
+    display: inline-flex;
+    width: auto;
+    height: 50px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 22px;
+}
+
+.int__text{
+    padding-right: 16px;
+    color: var(--orange, #F29C62);
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-XS, 12px);
+}
+
+.int__arrow{
+    padding-left: 16px;
 }

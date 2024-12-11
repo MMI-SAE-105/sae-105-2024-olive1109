@@ -29,4 +29,5 @@ Soyez attentifs à l'ordre d'import :
 /* Components */
 @import "/src/css/components/menu.css";
 @import "/src/css/components/hero.css";
-@import "/src/css/components/program.css";
+@import "/src/css/components/card-acc.css";
+@import "/src/css/components/welcom.css";
