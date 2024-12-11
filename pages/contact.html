@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <script type="module" src="/src/js/script.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="/pages/index.html">
+            <img class="header__logo" src="/assets/icônes/Logo.svg" alt="Logo">
+        </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <img class="menu-btn__img" src="/assets/icônes/menu/Default.svg" alt="">
+            <span aria-hidden="true"></span>
+        </button>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="programmation.html">Programmation</a></li>
+                <li class="menu__item"><a class="menu__link" href="billet.html">Billet</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+                <li class="menu__item"><a class="menu__link" href="a-propos.html">A Propos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">Miaulywood</h1>
+            <img class="hero__img" src="/assets/images/chat-fille.png" alt="">
+        </section>
+
+        <section class="contact">
+            <h2 class="contact__title">Contactez-nous</h2>
+            <form class="contact__form" action="/submit-form" method="post">
+                <div class="contact__form-group">
+                    <label class="contact__label" for="first-name">Prénom :</label>
+                    <input class="contact__input" type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="last-name">Nom :</label>
+                    <input class="contact__input" type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="email">Adresse mail :</label>
+                    <input class="contact__input" type="email" id="email" name="email" required>
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="objets">Objet :</label>
+                    <input class="contact__input" type="text" id="objets" name="objets">
+                </div>
+                <div class="contact__form-group">
+                    <label class="contact__label" for="message">Message :</label>
+                    <textarea class="contact__textarea" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="contact__form-group">
+                    <button class="contact__button" type="submit">
+                        <img class="contact__button-icon" src="/assets/icônes/flèche.svg" alt="">
+                        Envoyer
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <section class="footer__logo-section">
+            <a class="footer__logo-link" href="index.html"><img class="footer__logo" src="/assets/icônes/Logo.svg" alt=""></a>
+            <h1 class="footer__title">Miaulywood</h1>
+        </section>
+        <section class="footer__social">
+            <h3 class="footer__social-title">Nous Suivre</h3>
+            <ul class="footer__social-list">
+                <li class="footer__social-item"><a class="footer__social-link" href="https://x.com/?lang=fr"><img class="footer__social-icon" src="/assets/icônes/X n/Default.svg" alt=""></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="https://www.instagram.com"><img class="footer__social-icon" src="/assets/icônes/Insta.svg" alt=""></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="https://www.tiktok.com"><img class="footer__social-icon" src="/assets/icônes/tik tok.svg" alt=""></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="https://www.youtube.com"><img class="footer__social-icon" src="/assets/icônes/YT.svg" alt=""></a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="https://www.facebook.com/?locale=fr_FR"><img class="footer__social-icon" src="/assets/icônes/fb/Default.svg" alt=""></a></li>
+            </ul>
+        </section>
+        <section class="footer__menu">
+            <h3 class="footer__menu-title">Menu</h3>
+            <ul class="footer__menu-list">
+                <li class="footer__menu-item"><a class="footer__menu-link" href="index.html">Accueil</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="contact.html">Contact</a></li>
+                <li class="footer__menu-item"><a class="footer__menu-link" href="a-propos.html">A propos</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
