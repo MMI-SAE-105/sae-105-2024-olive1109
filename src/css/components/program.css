@@ -8,14 +8,14 @@
 }
 
 
-.program__icon {
+.card-acc__icon {
     width: 80px;
     height: 80px;
     display: flex;
     align-items: center;
 }
 
-.program__title {
+.card-acc__title {
     color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-M, 30px);
@@ -25,7 +25,9 @@
     align-items: center;
 }
 
-.program__item {
+
+
+.card-acc__item {
     display: flex;
     align-items: center;
     margin: 20px;
@@ -37,23 +39,23 @@
     align-items: flex-start;
 }
 
-.program__image {
+.card-acc__img {
     max-width: 300px;
     height: auto;
+    margin: 10px;
 }
 
-.films__title {
+.films__title, .card-acc__nom{
     align-self: stretch;
     color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-S, 20px);
     display: flex;
     align-items: center;
-    margin-top: 2px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
-.film__description {
+.film__description, .card-acc__text {
     max-width: 200px;
     height: 103px;
     flex-shrink: 0;
