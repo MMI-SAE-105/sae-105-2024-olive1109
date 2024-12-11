@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 30vh; /* Assure que le conteneur prend toute la hauteur de la page */
+}
+
+
+.program__icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.program__title {
+    color: var(--noir, #000);
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-M, 30px);
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.program__item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.program__image {
+    max-width: 300px;
+    height: auto;
+}
+
+.films__title {
+    align-self: stretch;
+    color: var(--noir, #000);
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-S, 20px);
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.film__description {
+    max-width: 200px;
+    height: 103px;
+    flex-shrink: 0;
+    color: var(--noir, #000);
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-XS, 12px);
+}
