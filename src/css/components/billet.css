@@ -1,0 +1,69 @@
+.tickets{
+    margin-left: 20px;
+}
+
+.tickets__title{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-M, 30px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--font-font-M, 30px);
+}
+
+.tickets__subtitle{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-font-S, 20px);
+}
+
+.tickets__item{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.tickets__from-section{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.tickets__from-group{
+    display: inline-block;
+    border-bottom: 2px solid var(--noir, #000);
+}
+
+.tickets__label{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.tickets__input{
+    border: none;
+    outline: none;
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.ticket__select{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.ticket__option{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    font-style: normal;
+}
+
+.tickets__button{
+    margin: 20px;
+    left: 50%;
+}

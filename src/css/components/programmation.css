@@ -10,6 +10,7 @@
     align-items: flex-start;
     width: 186px;
     height: auto;
+    margin-left: 20px;
 }
 
 .item__droit{
@@ -47,8 +48,7 @@
     font-family: var(--font-familly-body, Roboto);
     font-size: var(--font-font-XS, 12px);
     font-style: normal;
-    font-weight: 200;
-    line-height: var(--font-font-XS, 12px);
+    font-weight: var(--weigth-regular)
 }
 
 .program__item{
@@ -60,3 +60,14 @@
     margin: 10px;
     margin-left: 0%;
 }
+
+.program__day{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-font-S, 20px);
+    margin: 20px;
+    margin-top: 60px;
+}
+
