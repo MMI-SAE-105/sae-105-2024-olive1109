@@ -10,7 +10,6 @@
 }
 
 .card-acc__title {
-    color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-M, 30px);
     font-weight: 400;

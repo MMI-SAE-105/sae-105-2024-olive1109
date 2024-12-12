@@ -4,3 +4,14 @@
     justify-content: center;
     justify-items: first baseline;
 }
+
+.welcome__title{
+    margin: 20px;
+    color: var(--noir, #000);
+    text-align: center;
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-M, 30px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--font-font-M, 30px);
+}

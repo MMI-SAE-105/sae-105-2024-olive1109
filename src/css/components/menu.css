@@ -39,3 +39,23 @@
 .language-btn span {
     opacity: 0.4;
 }
+
+.header__close-btn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+
+}
+
+.header__close-btn img {
+    width: 24px; /* Ajustez la taille selon vos besoins */
+    height: 24px;
+}
+
+.menu-btn__img{
+    margin-right: 20px;
+}
