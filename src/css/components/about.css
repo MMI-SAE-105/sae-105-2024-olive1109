@@ -1,0 +1,38 @@
+.about{
+    margin: 20px;
+}
+.about__title{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-title, Roboto);
+    font-size: var(--font-font-L, 40px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: var(--font-font-L, 40px);
+}
+
+.about__subtitle{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S, 20px);
+    font-style: var(--weigth-regular, Regular);
+    line-height: var(--font-font-S, 20px);
+    margin-bottom: 10px;
+}
+
+.about__text{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S, 20px);
+    font-style: var(--weigth-extra-ligth, ExtraLigth);
+    width: 282px;
+    margin-top: 10px;
+}
+
+.about__logo{
+    width:200px;
+    height:200px;
+}
+
+.about__header{
+    display: flex;
+    align-items: center;
+}

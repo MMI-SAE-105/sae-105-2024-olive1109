@@ -32,12 +32,16 @@
     font-style: normal;
 }
 
-.tickets__from-group{
-    display: inline-block;
-    border-bottom: 2px solid var(--noir, #000);
+.ticket__bar {
+    color: var(--vert);
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    margin-right: 20px;
 }
 
 .tickets__label{
+    color: var(--orange);
     font-family: var(--font-familly-body, Roboto);
     font-size: var(--font-font-xs, 14px);
     font-style: normal;
