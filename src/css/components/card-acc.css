@@ -30,18 +30,27 @@
 }
 
 .card-acc__img {
-    max-width: 300px;
+    width: 100px;
     height: auto;
     margin: 10px;
 }
 
-.films__title, .card-acc__nom {
+.film__title {
     align-self: stretch;
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-S, 20px);
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0px;
+} 
+
+.card-acc__nom {
+    align-self: stretch;
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-S, 20px);
+    display: flex;
+    align-items: center;
+    margin: 0px;
 }
 
 .film__description, .card-acc__text {
@@ -50,4 +59,5 @@
     color: var(--noir, #000);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-XS, 12px);
+    margin: 0px;
 }

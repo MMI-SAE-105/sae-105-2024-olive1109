@@ -26,3 +26,12 @@
     position: relative;
     top: 5px;
 }
+
+.img__chat{
+    width: 100px;
+    height: auto;
+    margin-left: 0;
+    flex-shrink: 0;
+    position: relative;
+    top: 5px;
+}
