@@ -7,22 +7,5 @@ a:hover {
     color: var(--orange); /* Change la couleur au survol */
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    height: 20vh; /* Assure que le conteneur prend toute la hauteur de la page */
-}
 
-button {
-    background: none;
-    border: none;
-    color: inherit;
-    font: inherit;
-    cursor: pointer;
-    padding: 0;
-    margin: 0;
-    outline: none;
-}
+

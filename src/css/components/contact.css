@@ -1,0 +1,16 @@
+.contact{
+    margin: 20px;
+}
+
+.contact__title{
+    font-family: var(--font-familly-body, Roboto);
+font-size: var(--font-font-M, 30px);
+font-style: var(--weigth-bold, Bold);
+line-height: var(--font-font-M, 30px);
+}
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}

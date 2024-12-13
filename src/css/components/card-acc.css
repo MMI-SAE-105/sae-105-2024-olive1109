@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     margin-top: 100px;
+    margin-left: 40%;
 }
 
 .card-acc__title {
@@ -16,6 +17,7 @@
     line-height: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .card-acc__item {
@@ -53,30 +55,3 @@
     font-size: var(--font-size-XS, 12px);
 }
 
-.boutton{
-    gap: 40px;
-}
-
-.int{
-
-    border: 1px solid var(--orange, #F29C62);
-    background-color: var(--blanc, #FFF);
-    display: inline-flex;
-    width: auto;
-    height: 50px;
-    align-items: flex-start;
-    flex-shrink: 0;
-    align-items: center;
-    gap: 22px;
-}
-
-.int__text{
-    padding-right: 16px;
-    color: var(--orange, #F29C62);
-    font-family: var(--font-family-body, Roboto);
-    font-size: var(--font-size-XS, 12px);
-}
-
-.int__arrow{
-    padding-left: 16px;
-}

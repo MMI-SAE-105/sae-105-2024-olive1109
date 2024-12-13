@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 20vh;
+}
+
+
+.button__container {
+    border: 1px solid var(--orange, #F29C62);
+    background-color: var(--blanc, #FFF);
+}

@@ -1,0 +1,40 @@
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.button{
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.int{
+    border: 1px solid var(--vert);
+    background-color: var(--blanc, #FFF);
+    display: inline-flex;
+    width: auto;
+    height: 50px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 22px;
+}
+
+.int__text{
+    padding-right: 16px;
+    color: var(--orange, #F29C62);
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-XS, 12px);
+}
+
+.int__arrow{
+    padding-left: 16px;
+}
