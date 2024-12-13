@@ -1,13 +1,10 @@
-
-
-
 .card-acc__icon {
     width: 80px;
     height: 80px;
     display: flex;
     align-items: center;
-    margin-top: 100px;
-    margin-left: 40%;
+    justify-content: center; /* Centrer horizontalement */
+    margin: 100px auto; /* Centrer horizontalement avec auto */
 }
 
 .card-acc__title {
@@ -38,7 +35,7 @@
     margin: 10px;
 }
 
-.films__title, .card-acc__nom{
+.films__title, .card-acc__nom {
     align-self: stretch;
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-S, 20px);
@@ -54,4 +51,3 @@
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-XS, 12px);
 }
-

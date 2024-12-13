@@ -12,13 +12,13 @@
     justify-content: center;
     color: var(--blanc, #FFF);
     font-family: var(--font-familly-header, Notable);
-    font-size: var(--font-font-l);
+    font-size: var(--font-font-L, 2em); /* Correction de la syntaxe */
 }
 
-.hero__img{
-    width: 130%;
+.hero__img {
+    width: 100%; /* Ajustement pour la réactivité */
     height: auto;
-    margin-left: -15%;
+    margin-left: 0; /* Ajustement pour la réactivité */
     flex-shrink: 0; 
     position: relative;
     top: 5px;

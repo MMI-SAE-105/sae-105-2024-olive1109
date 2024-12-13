@@ -7,41 +7,36 @@ button {
     padding: 0;
     margin: 0;
     outline: none;
-    justify-content: center;
 }
 
-.button{
+.button {
+    align-items: center;
+    margin: 20px auto;
     gap: 40px;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
 }
 
-.int{
+.int {
     border: 1px solid var(--vert);
     background-color: var(--blanc, #FFF);
     display: inline-flex;
     width: auto;
     height: 50px;
-    align-items: flex-start;
+    align-items: center; 
     flex-shrink: 0;
-    align-items: center;
     gap: 22px;
-    margin-left: 115px;
+    margin-left: 0; 
 }
 
-.int__text{
+.int__text {
     padding-right: 16px;
     color: var(--orange, #F29C62);
     font-family: var(--font-family-body, Roboto);
     font-size: var(--font-size-XS, 12px);
 }
 
-.int__arrow{
+.int__arrow {
     padding-left: 16px;
 }
-
-
 
 .button__int-container {
     border: 1px solid var(--orange);
@@ -49,10 +44,9 @@ button {
     display: inline-flex;
     width: auto;
     height: 50px;
-    align-items: flex-start;
-    flex-shrink: 0;
     align-items: center;
+    flex-shrink: 0;
     justify-content: center;
     gap: 22px;
-    margin-left: 63px;
+    margin-left: 0;
 }
