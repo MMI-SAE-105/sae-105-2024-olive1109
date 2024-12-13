@@ -7,6 +7,7 @@ button {
     padding: 0;
     margin: 0;
     outline: none;
+    justify-content: center;
 }
 
 .button{
@@ -26,6 +27,7 @@ button {
     flex-shrink: 0;
     align-items: center;
     gap: 22px;
+    margin-left: 115px;
 }
 
 .int__text{
@@ -37,4 +39,20 @@ button {
 
 .int__arrow{
     padding-left: 16px;
+}
+
+
+
+.button__int-container {
+    border: 1px solid var(--orange);
+    background-color: var(--blanc, #FFF);
+    display: inline-flex;
+    width: auto;
+    height: 50px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    margin-left: 63px;
 }
