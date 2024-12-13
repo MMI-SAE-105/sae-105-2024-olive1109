@@ -16,3 +16,13 @@
     font-weight: 700;
     line-height: var(--font-font-M, 30px);
 }
+
+
+.img__pellicule{
+    width: 220px;
+    height: auto;
+    margin-left: 0;
+    flex-shrink: 0;
+    position: relative;
+    top: 5px;
+}
