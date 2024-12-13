@@ -40,20 +40,6 @@
     font-style: normal;
 }
 
-.tickets__input{
-    border: none;
-    outline: none;
-    font-family: var(--font-familly-body, Roboto);
-    font-size: var(--font-font-xs, 14px);
-    font-style: normal;
-}
-
-.ticket__select{
-    font-family: var(--font-familly-body, Roboto);
-    font-size: var(--font-font-xs, 14px);
-    font-style: normal;
-}
-
 .ticket__option{
     font-family: var(--font-familly-body, Roboto);
     font-size: var(--font-font-xs, 14px);
@@ -65,4 +51,33 @@
     left: 50%;
     display: flex;
     justify-content: center;
+}
+
+
+.tickets__form-group {
+    margin-bottom: 15px;
+}
+
+
+.tickets__option {
+    padding: 10px;
+}
+
+
+select {
+    border: 1px solid var(--vert);
+    border-radius: 10px;
+    background-color: rgba(242, 156, 98, 0.5); /* Utilise rgba pour définir une couleur de fond semi-transparente */
+    padding: 10px;
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    color: #000; /* Assure que le texte est complètement opaque */
+}
+
+option[value] {
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-xs, 14px);
+    color: var(--noir);
+    padding: 10px;
+    opacity: 1;
 }

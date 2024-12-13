@@ -35,12 +35,12 @@
 
 /* Style pour les champs de texte */
 input[type="text"], [type="email"], textarea {
-    width: 100%; /* Largeur du champ */
+    width: 90%; /* Largeur du champ */
     padding: 10px; /* Espacement intérieur */
     border: 2px solid var(--vert); /* Bordure */
     border-radius: 10px; /* Coins arrondis */
     font-family: var(--font-familly-body);
-    font-size: var(--font-font-S); /* Taille de la police */
+    font-size: var(--font-font-xs); /* Taille de la police */
     box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur totale */
     background-color: var(--orange);
     opacity: 0.5;

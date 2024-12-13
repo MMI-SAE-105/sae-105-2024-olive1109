@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     justify-items: first baseline;
+    margin: 40px;
 }
 
 .welcome__title{
