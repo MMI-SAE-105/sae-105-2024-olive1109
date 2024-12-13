@@ -4,13 +4,52 @@
 
 .contact__title{
     font-family: var(--font-familly-body, Roboto);
-font-size: var(--font-font-M, 30px);
-font-style: var(--weigth-bold, Bold);
-line-height: var(--font-font-M, 30px);
+    font-size: var(--font-font-M, 30px);
+    font-style: var(--weigth-bold, Bold);
+    line-height: var(--font-font-M, 30px);
 }
 
 .contact__form{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+}
+
+.contact__form label{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-s, 20px);
+    font-style: var(--weigth-regular, Regular);
+    line-height: var(--font-font-s, 20px);
+    margin-top: 10px;
+}
+
+.contact__form input{
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-s, 20px);
+    font-style: var(--weigth-regular, Regular);
+    line-height: var(--font-font-s, 20px);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* Style pour les champs de texte */
+input[type="text"], [type="email"], textarea {
+    width: 100%; /* Largeur du champ */
+    padding: 10px; /* Espacement intérieur */
+    border: 2px solid var(--vert); /* Bordure */
+    border-radius: 10px; /* Coins arrondis */
+    font-family: var(--font-familly-body);
+    font-size: var(--font-font-S); /* Taille de la police */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur totale */
+    background-color: var(--orange);
+    opacity: 0.5;
+    margin: 10px;
+}
+
+/* Style pour les champs de texte au focus */
+input[type="text"]:focus, [type="email"]:focus, textarea:focus {
+    border-color: #007BFF; /* Couleur de la bordure au focus */
+    outline: none; /* Retirer le contour par défaut */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ombre au focus */
 }
