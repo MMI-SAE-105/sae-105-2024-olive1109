@@ -1,0 +1,45 @@
+.stand__img{
+    width: 300px;
+    height: 304.839px;
+    margin-left: 64px;
+}
+
+.stand__title{
+    margin: 20px;
+    justify-content: center;
+    color: var(--noir, #000);
+    text-align: center;
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-M, 30px);
+    font-style: var(--weigth-bold);
+    line-height: var(--font-font-M, 30px);
+}
+
+.stand__list{
+    list-style: number;
+    margin: 20px;	
+}
+
+.stand__item{
+    margin-right: 20px;
+}
+
+.stand__item-title{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S);
+    font-style: var(--weigth-regulard);
+    line-height: var(--font-font-S);
+}
+
+.stand__detail{
+    list-style: none;
+}
+
+.stand__description{
+    color: var(--noir, #000);
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-S);
+    font-style: var(--weigth-ExtraLight);
+    line-height: var(--font-font-S);
+}
