@@ -6,7 +6,7 @@
 - NOM : Ahuir
 - PRÉNOM : Noëlie
 - GROUPE : A1
-- URL du site : https://sae105-noelie-ahuir.netlify.app
+- URL du site : http://sae105.noelie-ahuir.fr
 - URL FIGMA : https://www.figma.com/design/5UjxZ0CbRFLfOejorHCqR2/SAE-103?node-id=44-1031&t=o3Fnkjw9hOaNbuJ0-1
 
 ## Sujet
