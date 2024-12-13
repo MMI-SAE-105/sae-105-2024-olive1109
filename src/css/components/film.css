@@ -1,0 +1,30 @@
+.film__title{
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-L, 24px);
+    font-weight: var(--weight-bold, bold);
+    display: flex;
+    justify-content: center;
+}
+
+.film__img{
+    width: 295.238px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 65px;
+}
+
+.film__texte{
+    font-family: var(--font-family-body, Roboto);
+    font-size: var(--font-size-xs, 12px);
+    font-weight: var(--weight-ExtraLight);
+    margin: 20px;
+}
+
+.film__img-video{
+    width: 390px;
+    height: 203px;
+
+    justify-content: center;
+    margin: 20px;
+}

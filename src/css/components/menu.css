@@ -1,61 +1,84 @@
 .menu {
     visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
     display: flex;
     position: fixed;
     inset: 0;
     z-index: 1;
     background-color: var(--vert);
-    font-size: var(--font-font-M, 30px);
-    transition: all 0.4s ease-in-out;
-}
-
-
-.menu[aria-hidden="false"] {
-    visibility: visible;
-    opacity: 1;
-  }
-
-.menu__list {
-    margin-top: 25vh;
-    margin-left: 15vw;
-    align-items: center;
-}
-
-.menu__item {
-    margin-top: 15%;
-    list-style: none;
-  }
-
-.menu__link {
-   color: var(--blanc);
-}
-
-.language-btn {
     color: var(--blanc);
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+  }
+  .menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  
+  .menu__link {
+    color: var(--blanc);
+    text-decoration: none;
+    font-family: var(--font-familly-body, Roboto);
+    font-size: var(--font-font-M);
+    display: block;
+  }
+  
+  .menu__item {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+.menu__list{
+    margin-top: 50%;
+    margin-left: 25%;
+    list-style: none;
 }
-
-.language-btn span {
-    opacity: 0.4;
-}
-
-.header__close-btn {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 2;
-
-}
-
-.header__close-btn img {
-    width: 24px; /* Ajustez la taille selon vos besoins */
-    height: 24px;
-}
-
-.menu-btn__img{
+  
+.menu-btn {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 20px;
 }
+  
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: var(--blanc);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+  
+  .menu-btn__bar::before {
+    top: -10px;
+  }
+  
+  .menu-btn__bar::after {
+    top: 10px;
+  }
+  
+  /* Technique pour transformer les 3 barres du bouton de menu en croix
+  Ne pas oublier d'ajouter une transition plus haut pour l'animation */
+  .menu-btn[aria-expanded="true"] .menu-btn__bar,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--blanc);
+  }
+  
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+  .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
