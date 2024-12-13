@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center; /* Centrer horizontalement */
-    margin: 100px auto; /* Centrer horizontalement avec auto */
+    margin: 10px auto; /* Centrer horizontalement avec auto */
 }
 
 .card-acc__title {
